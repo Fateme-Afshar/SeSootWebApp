@@ -81,14 +81,14 @@ public class ShowWebFragment extends Fragment {
             mBinding.btnRefresh.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                        setupWebView();
-                        setupVisibility(View.GONE,View.VISIBLE);
+                        setupLoadingSite();
                 }
             });
         }
     }
 
     private void setupWebView() {
+        setupVisibility(View.GONE,View.VISIBLE);
         mBinding.webView.loadUrl("http://www.3sootcrm.ir/authentication/login");
         mBinding.webView.getSettings().setJavaScriptEnabled(true);
         mBinding.webView.setWebViewClient(new WebViewClient(){
@@ -105,5 +105,4 @@ public class ShowWebFragment extends Fragment {
         mBinding.tvNoConnection.setVisibility(noConnectionVisibility);
         mBinding.animNoConnect.setVisibility(noConnectionVisibility);
     }
-
 }
