@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">SeSootWebApp</string>
+    <string name="app_name">اتوماسیون  اداری سه سوت وب</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_connection">اینترنت وصل نیست لطفا اینتر نت خود را روشن کنید</string>
+    <string name="connect_again">اتصال مجدد</string>
 </resources>
