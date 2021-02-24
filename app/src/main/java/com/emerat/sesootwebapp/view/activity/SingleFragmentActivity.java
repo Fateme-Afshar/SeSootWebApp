@@ -1,4 +1,4 @@
-package com.emerat.sesootwebapp.view;
+package com.emerat.sesootwebapp.view.activity;
 
 import android.os.Bundle;
 

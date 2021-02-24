@@ -1,4 +1,4 @@
-package com.emerat.sesootwebapp.view;
+package com.emerat.sesootwebapp.view.fragment;
 
 import android.net.ConnectivityManager;
 import android.os.Build;

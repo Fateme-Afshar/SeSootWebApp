@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">اتوماسیون  اداری سه سوت وب</string>
+    <string name="app_name"> سه سوت وب</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="no_connection">اینترنت وصل نیست لطفا اینتر نت خود را روشن کنید</string>
     <string name="connect_again">اتصال مجدد</string>
+    <string name="welcome_message">به دنیای هوشمند خدمات دیجیتال سه سوت وب خوش آمدید</string>
+    <string name="site_name">www.3sotweb.com</string>
 </resources>
