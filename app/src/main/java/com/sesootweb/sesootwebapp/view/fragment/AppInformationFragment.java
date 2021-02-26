@@ -51,7 +51,6 @@ public class AppInformationFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         mViewModel=new AppInformationViewModel();
 
         mViewModel.getOnNextStepBtnClickState().observe(this, new Observer<Boolean>() {
