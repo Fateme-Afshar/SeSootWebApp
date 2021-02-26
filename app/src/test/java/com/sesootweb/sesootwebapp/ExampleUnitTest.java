@@ -1,4 +1,4 @@
-package com.emerat.sesootwebapp;
+package com.sesootweb.sesootwebapp;
 
 import org.junit.Test;
 

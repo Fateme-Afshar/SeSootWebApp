@@ -1,4 +1,4 @@
-package com.emerat.sesootwebapp.utils;
+package com.sesootweb.sesootwebapp.utils;
 
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;

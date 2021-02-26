@@ -1,4 +1,4 @@
-package com.emerat.sesootwebapp.view.fragment;
+package com.sesootweb.sesootwebapp.view.fragment;
 
 import android.net.ConnectivityManager;
 import android.os.Build;
@@ -16,9 +16,9 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.emerat.sesootwebapp.R;
-import com.emerat.sesootwebapp.databinding.FragmentShowWebBinding;
-import com.emerat.sesootwebapp.utils.LoadingUtils;
+import com.sesootweb.sesootwebapp.R;
+import com.sesootweb.sesootwebapp.databinding.FragmentShowWebBinding;
+import com.sesootweb.sesootwebapp.utils.LoadingUtils;
 
 
 public class ShowWebFragment extends Fragment {
