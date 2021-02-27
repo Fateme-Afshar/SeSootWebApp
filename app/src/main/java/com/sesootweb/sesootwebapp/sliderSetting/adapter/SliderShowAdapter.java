@@ -22,9 +22,9 @@ public class SliderShowAdapter extends SliderViewAdapter<SliderShowAdapter.Slide
         mContext = context;
 
         mSliderItems.add(new SliderItem("به دنیای هوشمند خدمات دیجیتال سه سوت وب خوش آمدید", R.drawable.ic_se_soot_web_logo));
-        mSliderItems.add(new SliderItem("طراحی اپلیکیشن های موبایل و وب ",R.drawable.ic_web));
-        mSliderItems.add(new SliderItem("سئو سایت \n کسب رتبه های برتر گوگل فقط با ما",R.drawable.img_seo));
-        mSliderItems.add(new SliderItem("طراحی اپلیکیشن\n اپلیکیشن موبایل (اندروید و ios) و اپلیکیشن های تحت سرور ( PWA و WebView و ... )",R.drawable.img_app));
+        mSliderItems.add(new SliderItem("طراحی وب سایت ",R.drawable.ic_web_white));
+        mSliderItems.add(new SliderItem("سئو سایت \n کسب رتبه های برتر گوگل فقط با ما",R.drawable.ic_seo_white));
+        mSliderItems.add(new SliderItem("طراحی اپلیکیشن\n اپلیکیشن موبایل (اندروید و ios) و اپلیکیشن های تحت سرور ( PWA و WebView و ... )",R.drawable.ic_app_white));
     }
 
     @Override

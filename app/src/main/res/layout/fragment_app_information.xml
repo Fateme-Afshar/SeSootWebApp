@@ -12,34 +12,33 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".view.fragment.AppInformationFragment">
+        tools:context=".view.fragment.AppInformationFragment"
+        android:background="@color/light_blue">
 
             <com.smarteist.autoimageslider.SliderView
                 android:id="@+id/slider"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/next_step"
-                app:sliderAnimationDuration="4000"
-                app:sliderIndicatorAnimationDuration="4000"
+                app:sliderAnimationDuration="2000"
                 app:sliderIndicatorGravity="center_horizontal|bottom"
                 app:sliderIndicatorMargin="15dp"
-                app:sliderIndicatorOrientation="horizontal"
                 app:sliderIndicatorPadding="3dp"
                 app:sliderIndicatorRadius="2dp"
-                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorSelectedColor="@color/indigo"
                 app:sliderIndicatorUnselectedColor="#FFF"
-                app:sliderScrollTimeInSec="1" />
+                app:sliderScrollTimeInSec="3" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
             android:id="@+id/next_step"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next_step"
             app:icon="@drawable/ic_next"
             app:iconGravity="textEnd"
-            app:iconTint="#ff0000"
-            android:textColor="@color/black"
+            app:iconTint="@color/white"
+            android:textColor="@color/white"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_margin="16dp"

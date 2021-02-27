@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 
 import com.sesootweb.sesootwebapp.R;
 import com.sesootweb.sesootwebapp.SeSootWebApplication;
+import com.sesootweb.sesootwebapp.sharePref.SeSootWebSharePreferences;
 import com.sesootweb.sesootwebapp.view.fragment.AppInformationFragment;
 import com.sesootweb.sesootwebapp.view.fragment.ShowWebFragment;
 
@@ -20,10 +21,10 @@ public class MainActivity extends SingleFragmentActivity
 
     @Override
     protected Fragment getFragment() {
-        if (SeSootWebApplication.mFlagShowAppInformationFragment)
+        if (SeSootWebSharePreferences.getShowFirstTime(getApplicationContext()))
             return ShowWebFragment.newInstance();
         else {
-            SeSootWebApplication.mFlagShowAppInformationFragment=true;
+            SeSootWebSharePreferences.isFragmentShow(getApplicationContext(),true);
             return AppInformationFragment.newInstance();
         }
     }
